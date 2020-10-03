@@ -4,6 +4,7 @@ Member names and student numbers:
     - Victoria Cimpu - 300166264
     - Uyen Nguyen - 300173303
     - Aimen Mossa - 300209397
+    - Robert Djukic - 300197788
 Product name:
     - RUNisic running shoes
 Product description: 
