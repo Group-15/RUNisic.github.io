@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# RUNisic
 
-You can use the [editor on GitHub](https://github.com/Group-15/RUNisic.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Team Name: 
+RUNisic
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Team Members
+- [Aimen Mossa](https://github.com/amoss102)
+- [Haris Vohra](https://github.com/HarisVohra11)
+- [Muhammad Muizz Zafar](https://github.com/muizzzafar11)
+- [Robert Djukic](https://github.com/RobertDjukic)
+- [Taha Ben Amor](https://github.com/tahaba74)
+- [Uyen Nguyen](https://github.com/uyennguyen00)
+- [Victoria Cimpu](https://github.com/Victoria-Cimpu)
 
-### Markdown
+## Product Name
+RUNisic 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Description
+RUNisic is a chip manufacturing company, partenered up with famous shoe making brands. RUNisic manufactures chips that support wireless bluetooth connection, storage for downloading .mp3 songs, and has the ability to track the number of footsteps you've taaken and give an accurate report at the end of the day. 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Group-15/RUNisic.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Company Website:
+For more information visit us at : https://runisic.github.io/
