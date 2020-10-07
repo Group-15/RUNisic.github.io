@@ -5,6 +5,8 @@ Member names and student numbers:
     - Uyen Nguyen - 300173303
     - Aimen Mossa - 300209397
     - Robert Djukic - 300197788
+    -Taha Ben Amor - 300172759
+    - Haris Ahmad Vohra - 300174288
 Product name:
     - RUNisic running shoes
 Product description: 
