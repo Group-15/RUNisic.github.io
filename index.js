@@ -7,6 +7,8 @@ var pageLinks = [
     "ShoppingCartPage/ShoppingCartPage.html",
     "FAQPage/FAQPage.html",
     "LoginPage/LoginPage.html",
+    "ShoeSelectionPage/ShoeSelectionPage.html",
+    "chipSelectionPage/chipSelectionPage.html"
 ];
 
 function changePage(index) {
