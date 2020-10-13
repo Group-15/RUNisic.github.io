@@ -1,1 +1,56 @@
-<h1>RUNisic</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- All the css files [DONOT CHANGE] -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="MainPage/MainPage.css">
+    <link rel="stylesheet" href="ChipSelectionPage/ChipSelectionPage.css">
+    <link rel="stylesheet" href="FAQPage/FaqPage.css">
+    <link rel="stylesheet" href="LoginPage/LoginPage.css">
+    <link rel="stylesheet" href="ShoeSelectionPage/ShoeSelectionPage.css">
+    <link rel="stylesheet" href="ShoppingCartPage/ShoppingCartPage.css">
+    <link rel="stylesheet" href="ShoppingPage/ShoppingPage.css">
+    <link rel="stylesheet" href="TutorialsPage/TutorialsPage.css">
+    <title>RUNisic</title>
+</head>
+
+<body onload="changePage(5)">
+    <!-- Nav bar -->
+    <header>
+        <div class="navBar">
+            <img class="logo" src="assets/navBar_logo.svg" alt="logo.png" onclick="changePage(0)">
+            <nav>
+                <ul class="tabs">
+                    <li><span onclick="changePage(0)">Home</span></li>
+                    <li><span onclick="changePage(1)">Shop</span></li>
+                    <li><span onclick="changePage(2)">Tutorial</span></li>
+                    <li><span onclick="changePage(3)">Cart</span></li>
+                    <li><span onclick="changePage(4)">FAQ</span></li>
+                    <li><span onclick="changePage(5)">Login</span></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <br>
+    <br>
+
+    <!-- Content of the page -->
+    <div id="subjectToChange"></div>
+
+    <!-- All the javascript files [DONOT CHANGE] -->
+    <script src="index.js"></script>
+    <script src="MainPage/MainPage.js"></script>
+    <script src="ChipSelectionPage/ChipSelectionPage.js"></script>
+    <script src="FAQPage/FaqPage.js"></script>
+    <script src="LoginPage/LoginPage.js"></script>
+    <script src="ShoeSelectionPage/ShoeSelectionPage.js"></script>
+    <script src="ShoppingCartPage/ShoppingCartPage.js"></script>
+    <script src="ShoppingPage/ShoppingPage.js"></script>
+    <script src="TutorialsPage/TutorialsPage.js"></script>
+</body>
+
+</html>
