@@ -1,4 +1,4 @@
-const divToChange = "subjectToChange";
+// const divToChange = "subjectToChange";
 
 var pageLinks = [
     "MainPage/MainPage.html",
@@ -11,7 +11,7 @@ var pageLinks = [
     "chipSelectionPage/chipSelectionPage.html"
 ];
 
-function changePage(index) {
+function changePage(index, divToChange) {
     fetch(pageLinks[index])
         // Getting the content from the file in form of text
         .then(response => response.text())
