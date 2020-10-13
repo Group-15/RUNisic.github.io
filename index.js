@@ -5,7 +5,7 @@ var pageLinks = [
     "ShoppingPage/ShoppingPage.html",
     "TutorialsPage/TutorialsPage.html",
     "ShoppingCartPage/ShoppingCartPage.html",
-    "FAQPage/FAQPage.html",
+    "FAQPage/FaqPage.html",
     "LoginPage/LoginPage.html",
     "ShoeSelectionPage/ShoeSelectionPage.html",
     "chipSelectionPage/chipSelectionPage.html"
