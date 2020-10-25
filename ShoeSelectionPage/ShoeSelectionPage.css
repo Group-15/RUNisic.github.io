@@ -1,1 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    width: 30.00%;
+    padding: 5px;
+  }
+  
+ 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+.cart {
+     text-align: center;
+     border-style: solid;
+     border-color: Black;
+     border-radius: 5px;         /* add to cart part will be added later */
+     text-decoration: none;
+     padding: 3px 6px;
+     cursor:pointer
+ }
+ 
+.cart:hover, .cart:active {
+    background-color: rgb(2, 29, 2);
+    color: white;
+  }
+.Price {
+    text-align: center;
+    
+}
