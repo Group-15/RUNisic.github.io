@@ -34,3 +34,28 @@
     text-align: center;
     
 }
+
+a{
+  text-align:center;
+}
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(2, 29, 2);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+a:hover, a:active {
+  background-color: rgb(2, 29, 2);
+  color: white;
+}
+.next{
+  text-align: right;
+}
+.cus{
+  text-align: center; 
+}
