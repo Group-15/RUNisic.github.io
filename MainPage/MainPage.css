@@ -3,3 +3,132 @@
 th, td {
     padding: 15px;
 }
+
+body {
+    background: linear-gradient(121.6deg, #42455A 22.74%, #36384B 65.6%);
+    color: white;
+}
+
+article {
+    padding: 25px;
+}
+
+.info-text {
+    font-size: large;
+    text-align: center;
+}
+
+.border{
+    background-image: linear-gradient(plum, lightblue);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#info {
+    background: linear-gradient(121.6deg, #42455A 22.74%, #36384B 65.6%);
+    border-radius: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* Top section */ 
+.bg-image {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 100px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* Partners Slideshow */
+* {box-sizing: border-box}
+.logoSlides {display: none; background-color: azure; width: 700px; height: 500px; border-radius: 25px;}
+.partner-img {vertical-align: middle; width: 700px; height: 500px;}
+
+.partner-slideshow {
+    width: 800px;
+    position: relative;
+    margin: auto;
+    background: linear-gradient(121.6deg, #42455A 22.74%, #36384B 65.6%);
+    border-radius: 25px;
+    /*vertical-align: middle;*/
+}
+
+.slide {
+    width: 820px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
