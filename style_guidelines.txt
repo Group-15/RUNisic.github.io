@@ -1,0 +1,27 @@
+RUNisic Style Guidelines 
+
+The overall look of RUNisic follows a modern minimalist design. 
+The website should be easy to look at but invoke a feeling of our product being stylish. 
+
+Colours 
+=======
+For RUNisic the colour scheme is dark blue / gray with white text. A gradient of light purple to light blue may be included were appropriate. 
+
+
+Background: 
+	background: linear-gradient(121.6deg, #42455A 22.74%, #36384B 65.6%);
+
+Text colour is white:
+	color: white;  
+
+Gradient: 
+background-image: linear-gradient(plum, lightblue);
+
+
+Standardization 
+=====
+Standard header and logo for all webpages. Form this header, navigation to the different webpages will be done.  
+
+h1 and h2 are centered (as the default) 
+
+Standard font was selected
