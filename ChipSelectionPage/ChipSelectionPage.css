@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 *{margin:auto}
-#wrapper {width:1200px;height:auto;background-color: thistle;}
-#banner{width:1200px;height:150px;background-color: thistle;}
-#top{width:100%;height: 50px;background-color:whitesmoke}
-#banner{
-    width:1200px;height:500px;background-color:whitesmoke;}
-#slideshow{width:1200px;height:1450px;background-color:whitesmoke;margin-top:50px;float:left;}
 
-.mybox{width:150px;height:200px;border:2px solidblack;margin-top:10px}
-.mybox img{width:150px;height:150px;}
-.mybox p.name{font-size:18px;font-weight:bold;}
-.mybox p.price{font-size:18px;font-weight:bold;}
+#slideshow{width:1200px;height:1850px;margin-top:50px;float:left;}
+#main{width:1200px;height:150px;}
+.mybox{width:250px;height:850px;margin-top:10px 75px 75px 75px;padding-top:10px; text-align: left;float: left;}
+.mybox img{width:240px;height:400px;}
+.mybox p.name{font-size:25px;font-weight:bold;}
+.mybox p.price{font-size:18px;font-weight:bold;color:red}
