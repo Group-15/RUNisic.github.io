@@ -1,14 +1,18 @@
 <div class="mainPageClass">
-    <h1>This is the Login Page</h1>
-    <form onsubmit="event.preventDefault();formSubmit()">
-        <div class="container">
-            <label for="name"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-
+    <div class="card">
+        <form onsubmit="event.preventDefault();formSubmit()">
+            <div>
+                <label for="name"><p>Username</p></label>
+                <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+            </div>
+            <div style="margin-top: 30px; margin-bottom: 30px;">
+                <label for="psw"><p>Password</p></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            </div>
             <button>Login</button>
-        </div>
-    </form>
+
+        </form>
+    </div>
+
 </div>
