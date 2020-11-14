@@ -25,3 +25,10 @@ function showSlides(n) {
   slides[index-1].style.display = "block";  
   dots[index-1].className += " active";
 }
+
+function sponsor() {
+  var name = document.getElementById("s_name").value;
+  var email = document.getElementById("s_e-mail").value;
+  var cont = document.getElementById("s_cont").value;
+  alert("Thank you for your $" + cont + " contribution, " + name + "! \nWe will contact you shortly at " + email + " with more information");
+}
