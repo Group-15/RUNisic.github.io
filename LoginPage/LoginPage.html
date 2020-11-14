@@ -1,18 +1,39 @@
-<div class="mainPageClass">
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="card">
-        <form onsubmit="event.preventDefault();formSubmit()">
-            <div>
-                <label for="name"><p>Username</p></label>
-                <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
-            </div>
-            <div style="margin-top: 30px; margin-bottom: 30px;">
-                <label for="psw"><p>Password</p></label>
-                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-            </div>
-            <button>Login</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="LoginPage.css">
+</head>
 
-        </form>
+<body>
+
+    <div class="mainPageClass">
+
+        <div class="card">
+            <form onsubmit="event.preventDefault();formSubmit()">
+                <div>
+                    <label for="name">
+                        <p>Username</p>
+                    </label>
+                    <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+                </div>
+                <div style="margin-top: 30px; margin-bottom: 30px;">
+                    <label for="psw">
+                        <p>Password</p>
+                    </label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                </div>
+                <button>Login</button>
+
+            </form>
+        </div>
+
     </div>
 
-</div>
+    <script src="LoginPage.js"></script>
+</body>
+
+</html>

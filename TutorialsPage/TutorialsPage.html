@@ -1,32 +1,65 @@
-<div class="mainPageClass">
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="dropown-question 1" id="dropown-question-1">
-        <div class="dropown-card" onclick="clicked(1,`/assets/appScreenImages/login_screen_phone.svg`)">
-            <p>Question 1</p>
-            <div class="dropdownImage"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TutorialsPage.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navBar">
+            <img class="logo" src="../assets/navBar_logo.svg" alt="logo.png" onclick="location.href='../index.html';">
+            <nav>
+                <ul class="tabs">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../ShoppingPage/ShoppingPage.html">Shop</a></li>
+                    <li><a href="TutorialsPage.html">Tutorial</a></li>
+                    <li><a href="../ShoppingCartPage/ShoppingCartPage.html">Cart</a></li>
+                    <li><a href="../FAQPage/FaqPage.html">FAQ</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <div class="dropown-question 2" id="dropown-question-2">
-        <div class="dropown-card" onclick="clicked(2,`/assets/appScreenImages/pair_with_device_screen.svg`)">
-            <p>Question 2</p>
-            <div class="dropdownImage"></div>
+
+    <div class="mainPageClass">
+
+        <div class="dropown-question 1" id="dropown-question-1">
+            <div class="dropown-card" onclick="clicked(1,`appScreenImages/login_screen_phone.svg`)">
+                <p>Question 1</p>
+                <div class="dropdownImage"></div>
+            </div>
         </div>
-    </div>
 
-
-    <div class="dropown-question 3" id="dropown-question-3">
-        <div class="dropown-card" onclick="clicked(3,`/assets/appScreenImages/transfermusic.svg`)">
-            <p>Question 3</p>
-            <div class="dropdownImage"></div>
+        <div class="dropown-question 2" id="dropown-question-2">
+            <div class="dropown-card" onclick="clicked(2,`appScreenImages/pair_with_device_screen.svg`)">
+                <p>Question 2</p>
+                <div class="dropdownImage"></div>
+            </div>
         </div>
-    </div>
 
-    <div class="dropown-question 4" id="dropown-question-4">
-        <div class="dropown-card" onclick="clicked(4,`/assets/appScreenImages/workout_data.png`)">
-            <p>Question 4</p>
-            <div class="dropdownImage"></div>
+
+        <div class="dropown-question 3" id="dropown-question-3">
+            <div class="dropown-card" onclick="clicked(3,`appScreenImages/transfermusic.svg`)">
+                <p>Question 3</p>
+                <div class="dropdownImage"></div>
+            </div>
         </div>
-    </div>
 
-</div>
+        <div class="dropown-question 4" id="dropown-question-4">
+            <div class="dropown-card" onclick="clicked(4,`appScreenImages/workout_data.png`)">
+                <p>Question 4</p>
+                <div class="dropdownImage"></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="TutorialsPage.js"></script>
+</body>
+
+</html>

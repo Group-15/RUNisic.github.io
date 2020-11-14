@@ -1,83 +1,36 @@
-<div class="chipSelection" id="chipSelection">
-    <p>This is the chip selection page</p>
-    <button onclick="checkSignIn()">click mehe</button>
-    
-    <div id="slideshow">
-        <img src="ChipSelectionPage/images/image1.jpg">
-        <button class="left"><</button>
-        <button class="right">></button>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
 
-    <div id="main">
-        
-        <div class="mybox">
-            <img src="ChipSelectionPage/images/minichip.jpg">
-            <p class="name"> Mini Chip</p>
-            <p class="price">$230</p>
-            <p><br> </br> </p>
-            <p class="feature">
-                <p><br>Measuring yor blood oxigen</b></p>
-                <p><br>Measuring every your step</br></p>
-                <p> <br>Track your move</br></p>
-                <p><br>Smart connection</br></p>
-                <p><br> Quick setup</br> </p>  
-                <p> <br>Be your GPS </br></p>
-                <p><br> </br> </p>
-                <p><br><button class="buybutton">BUY</button>  </br> </p>
-            </p>
-                
-                
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChipSelectionPage</title>
+    <link rel="stylesheet" href="ChipSelectionPage.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navBar">
+            <img class="logo" src="assets/navBar_logo.svg" alt="logo.png" onclick="changePage(0)">
+            <nav>
+                <ul class="tabs">
+                    <li><a href="../MainPage/MainPage.html">Home</a></li>
+                    <li><a href="../ShoppingPage/ShoppingPage.html">Shop</a></li>
+                    <li><a href="../TutorialsPage/TutorialsPage.html">Tutorial</a></li>
+                    <li><a href="../ShoppingCartPage/ShoppingCartPage.html">Cart</a></li>
+                    <li><a href="../FAQPage/FaqPage.html">FAQ</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="mybox">
-            <img src="ChipSelectionPage/images/chipplus.jpg">
-            <p class="name">Chip Plus</p>
-            <p class="price">$280</p>
-            <p><br> </br> </p>
-            <p class="feature">
-                <p><br>Measuring yor blood oxigen</b></p>
-                <p><br>Measuring every your step</br></p>
-                <p> <br>Track your move</br></p>
-                <p><br>Smart connection</br></p>
-                <p><br> Quick setup</br> </p>  
-                <p> <br>Be your GPS </br></p>
-                <p><br> </br> </p>
-                <p><br><button class="buybutton">BUY</button>  </br> </p>
-            </p>
-                
-        </div>
-        <div class="mybox">
-            <img src="ChipSelectionPage/images/prochip.jpg">
-            <p class="name">Pro Chip</p>
-            <p class="price">$310</p>
-            <p><br> </br> </p>
-            <p class="feature">
-                <p><br>Measuring yor blood oxigen</b></p>
-                <p><br>Measuring every your step</br></p>
-                <p> <br>Track your move</br></p>
-                <p><br>Smart connection</br></p>
-                <p><br> Quick setup</br> </p>  
-                <p> <br>Be your GPS </br></p>
-                <p><br> </br> </p>
-                <p><br><button class="buybutton">BUY</button>  </br> </p>
-            </p>
-                
-        </div>
-    
-            
-    </div>
-</div>
-        
-<script>
-    var check= true;
-    function changephoto(){
-        if (check==true){
-            document.getElementById('photo').src="ChipSelectionPage/images/image2.jpg";
-            check =false;
-        }else {
-            document.getElementById('photo').src="ChipSelectionPage/images/image2.jpg";
-            check =true;
-        }
-    }
-</script>
-   
-  
+    </header>
+
+    <p>Replace me - Chip Selection page</p>
+
+    <button class="tocartPage-btn" id="tocartPage-btn">Click me</button>
+
+    <script src="ChipSelectionPage.js"></script>
+</body>
+
+</html>

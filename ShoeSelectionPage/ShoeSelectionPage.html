@@ -1,74 +1,95 @@
-<div class="shoeSelectionClass">
-    <p>This is the shoe selection page</p>
-    <button onclick="changePage(7, 'subjectToChange')">click me</button>
-	<span>
-        <div id = "text11">
-    <h1 id ="shoename"> Nike running shoe </h1>
-    <p id = "description">Great running shoe offers great comfort. Designed by Nike for RUNisic.</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ShoeSelectionPage.css">
+</head>
+
+<body>
+
+    <!-- <p>Replace me - Shoe Selection</p> -->
+    <div class="shoeSelectionClass">
+        <p>This is the shoe selection page</p>
+        <button onclick="changePage(7, 'subjectToChange')">click me</button>
+        <span>
+            <div id = "text11">
+        <h1 id ="shoename"> Nike running shoe </h1>
+        <p id = "description">Great running shoe offers great comfort. Designed by Nike for RUNisic.</p>
+            </div>
+        <div>
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="shoe 1"> 
         </div>
-    <div>
-    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="shoe 1"> 
+    
+        <table>
+            <thead>
+                <h1 id="size">size:</h1>
+            </thead>
+            <tr>
+                <th>
+                <button>
+                    <p class="sizes">9</p>
+                </button>
+                </th>
+                <th>
+                    <button>
+                    <p class="sizes">9.5</p>
+                    </button>
+                </th>
+    
+                <th>
+                    <button>
+                    <p class="sizes">10</p>
+                    </button>
+                </th>
+    
+                <th>
+                    <button>
+                    <p class="sizes">10.5</p>
+                    </button>
+                </th>
+    
+    
+            </tr>
+            <tr>
+    
+                <th>
+                    <button>
+                    <p class="sizes">11</p>
+                    </button>
+                </th>
+    
+                <th>
+                    <button>
+                    <p class="sizes">11.5</p>
+                    </button>
+                </th>
+    
+                <th>
+                    <button>
+                    <p class="sizes">12</p>
+                    </button>
+                </th>
+    
+                <th>
+                    <button>
+                    <p class="sizes">12.5</p>
+                    </button>
+                </th>
+    
+            </tr>
+        </table>
+        </span>
+        <br></br>
+        <br></br>
+        <a href="to be added later" class="link">Chip selection </a>
     </div>
 
-    <table>
-        <thead>
-            <h1 id="size">size:</h1>
-        </thead>
-        <tr>
-            <th>
-            <button>
-                <p class="sizes">9</p>
-            </button>
-            </th>
-            <th>
-                <button>
-                <p class="sizes">9.5</p>
-                </button>
-            </th>
+    <button class="tochipSelectPage-btn" id="tochipSelectPage-btn">Click me</button>
 
-            <th>
-                <button>
-                <p class="sizes">10</p>
-                </button>
-            </th>
+    <script src="ShoeSelectionPage.js"></script>
+</body>
 
-            <th>
-                <button>
-                <p class="sizes">10.5</p>
-                </button>
-            </th>
-
-
-        </tr>
-        <tr>
-
-            <th>
-                <button>
-                <p class="sizes">11</p>
-                </button>
-            </th>
-
-            <th>
-                <button>
-                <p class="sizes">11.5</p>
-                </button>
-            </th>
-
-            <th>
-                <button>
-                <p class="sizes">12</p>
-                </button>
-            </th>
-
-            <th>
-                <button>
-                <p class="sizes">12.5</p>
-                </button>
-            </th>
-
-        </tr>
-    </table>
-    </span>
-    <br></br>
-    <br></br>
-    <a href="to be added later" class="link">Chip selection </a>
+</html>

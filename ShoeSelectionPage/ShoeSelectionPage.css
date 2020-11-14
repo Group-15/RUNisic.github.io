@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 * {
     box-sizing: border-box;
-  }
+}
 
-  img {
+img {
     border-radius: 50%;
-    width : 500px;
+    width: 500px;
     float: left;
     padding: 150px 150px 150px 100px;
 }
 
-#text11{
+#text11 {
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     margin-left: 100px;
@@ -18,36 +18,33 @@
     margin-top: 100px;
 }
 
-table{
-    border : 1px solid black;
+table {
+    border: 1px solid black;
     border-collapse: collapse;
-
     border-color: linear-gradient(109.49deg, #A12CBE 0%, #00EDED 100%);
-    
 }
-button{
+
+button {
     border-style: solid;
     border-color: transparent;
     background-color: transparent;
     outline: none;
-    
     background: linear-gradient(109.49deg, #A12CBE 0%, #00EDED 100%);
     width: 50px;
-    
     cursor: pointer;
- 
 }
-th, td{
 
+th,
+td {
     border-style: solid;
     border-width: 10px;
     outline-style: double;
     outline-color: transparent;
     outline-width: 50px;
     background: linear-gradient(109.49deg, #A12CBE 0%, #00EDED 100%);
-    
     border-color: white;
 }
+
 a:link {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(109.49deg, #A12CBE 0%, #00EDED 100%);
@@ -60,23 +57,25 @@ a:link {
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 10px;
-    
-
 }
-.sizes{
+
+.sizes {
     color: white;
-
 }
-a:hover{
+
+a:hover {
     opacity: 0.7;
 }
-#size{
+
+#size {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 200px;
 }
-#shoename{
+
+#shoename {
     padding-top: 125px;
 }
-#description{
+
+#description {
     width: 250px;
 }

@@ -1,9 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-*{margin:auto}
+* {
+    margin: auto
+}
 
-#slideshow{width:1200px;height:1850px;margin-top:50px;float:left;}
-#main{width:1200px;height:150px;}
-.mybox{width:250px;height:850px;margin-top:10px 75px 75px 75px;padding-top:10px; text-align: left;float: left;}
-.mybox img{width:240px;height:400px;}
-.mybox p.name{font-size:25px;font-weight:bold;}
-.mybox p.price{font-size:18px;font-weight:bold;color:red}
+#slideshow {
+    width: 1200px;
+    height: 1850px;
+    margin-top: 50px;
+    float: left;
+}
+
+#main {
+    width: 1200px;
+    height: 150px;
+}
+
+.mybox {
+    width: 250px;
+    height: 850px;
+    margin-top: 10px 75px 75px 75px;
+    padding-top: 10px;
+    text-align: left;
+    float: left;
+}
+
+.mybox img {
+    width: 240px;
+    height: 400px;
+}
+
+.mybox p.name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mybox p.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: red
+}
