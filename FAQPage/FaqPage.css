@@ -1,27 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.FAQPageClass{
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+header{
+    background: white;
+}
+
+body{
+    background: linear-gradient(109.49deg, #A12CBE 0%, #00EDED 100%);
+}
+
+html{
+    box-sizing: border-box;
+}
 
 #FaqWord{
     color: #FFFFFF;
     font-size: 50px;
 }
-#main {
-    text-align: left;
-    padding-left: 15px;
-    padding-bottom: 15px;
-}
+
 #Qsection{
     font-size: 40px;
     color: #FFFFFF;
 }
-#Qstyle {
-    text-align: left;
-    font-size: 30px;
-    color: #FFFFFF;
-    padding-left: 25px
+
+.container{
+    width: 100%;
+    max-width:80;
+    padding: 0 15px;
+    margin: 0 auto;
+    
 }
-#answer{
-    color: #FFFFFF;
+
+.accordion-item{
+    background-color: #283042;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 8px 2px 8px rgba(0,0,0,.1);
+}
+
+.accordion-link{
     font-size: 15px;
-    padding-left: 20px
+    background-color: #283042;
+    width: 100%;
+    display: flex;
+    color: #e7d5ff;
+    padding: 8px;
+    text-decoration:none;
 }
+
+.accordion-link:hover{
+    background-color: #1f283f;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden; 
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms;
+}
+
+.answer::before{
+    content:"";
+    position: absolute;
+    width: 10px;
+    height: 90%;
+    background-color: #8fc460;
+    top: 50%;
+    left:0%;
+    transform:translateY(-50%);
+}
+
+.answer p{
+    font-size: 15px;
+    color: rgba(255,255,255,.6);
+    padding: 25px;
+}
+
+.accordion-item:target .answer{
+    max-height: 240px;
+}
+
+#all{
+    background-color: #42EADDFF;
+    border-radius: 6px;
+}
+
+#all:hover{
+    color: white;
+    background-color: #CDB599FF;
+}
+
+#prod{
+    background-color: #42EADDFF;
+   
+    border-radius: 6px;
+}
+#prod:hover{
+    color: white;
+    background-color: #CDB599FF;
+}
+
+#gen{
+    background-color: #42EADDFF;
+    border-radius: 6px;
+}
+
+#gen:hover{
+    color: white;
+    background-color: #CDB599FF;
+}
+
+#tec{
+    background-color: #42EADDFF;
+    border-radius: 6px;
+}
+
+#tec:hover{
+    color: white;
+    background-color: #CDB599FF;
+}
+
