@@ -6,31 +6,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChipSelectionPage</title>
     <link rel="stylesheet" href="ChipSelectionPage.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
-
-    <header>
+     <!-- Nav bar -->
+     <header>
         <div class="navBar">
-            <img class="logo" src="assets/navBar_logo.svg" alt="logo.png" onclick="changePage(0)">
+            <img class="logo" src="../assets/navBar_logo.svg" alt="logo.png" onclick="location.href='../index.html';">
             <nav>
                 <ul class="tabs">
-                    <li><a href="../MainPage/MainPage.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="../ShoppingPage/ShoppingPage.html">Shop</a></li>
                     <li><a href="../TutorialsPage/TutorialsPage.html">Tutorial</a></li>
                     <li><a href="../ShoppingCartPage/ShoppingCartPage.html">Cart</a></li>
-                    <li><a href="../FAQPage/FaqPage.html">FAQ</a></li>
+                    <li><a href="FaqPage.html">FAQ</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <div class="chipSelection">
+        <!--
+        <button onclick="checkSignIn()">click mehe</button>
+        -->
+        
+        <div class="slideshow">
+            <div class="photo">
+                <img  src="images/first.jpg"  width="1400" height="700">
+                <div class="right">
+                    <h1><i><b>Pick your Chip..</b></i></h1>
+                    <p>Learn more..</p>
+                </div>
+                </div>
+                <div class="photo">
+                <img  src="images/slide1.jpg" width="1400" height="700" >
+                </div>
+                <div class="photo">
+                <img  src="images/slide4.jpg" width="1400" height="700" >
+                </div>
+                <div class="photo">
+                <img  src="images/slide2.jpg"  width="1400" height="700">
+                </div>
+                <div class="photo">
+                <img  src="images/slide3.jpg" width="1400" height="700" >
+                </div>
+                
 
-    <p>Replace me - Chip Selection page</p>
+            <div class="Rbtn">
+                <button onclick="rightbtn(-1)"><p style="font-size:18px">></p></button>
+            </div>
+                
+    
+            </div>
+            <div class="Lbtn">
+                <button onclick="leftbtn(1)"><p style="font-size:18px"><</p></button>
+            </div>
+            
+    
 
-    <button class="tocartPage-btn" id="tocartPage-btn">Click me</button>
+    
+        <div id="product">
+            <div class="mybox">
+                <img src="images/slide1.jpg">
+                <p><br> </br> </p>
+                <p class="name">Chip 1</p>
+                <p><br> </br> </p>
+                <p class="price">$130</p>
+                <p><br> </br> </p>
+                <p class="feature">
+                    <p><br>Measuring yor blood oxigen</b></p>
+                    <p><br>Measuring every your step</br></p>
+                    <p> <br>Track your move</br></p>
+                    <p><br>Smart connection</br></p>
+                    <p><br> Quick setup</br> </p>  
+                    <p> <br>Be your GPS </br></p>
+                    <p><br> </br> </p>
+                    <p><br><button onclick="buybutton()"><b><p style="font-size:18px">BUY</p></b></button> </br> </p>
+                    <p><br><button onclick="seemore1()"><i><p style="font-size:13px">See more..</p></i></button>  </br> </p>
+                    
+                </p>
+                    
+                    
+            </div>
+            <div class="mybox">
+                <img src="images/slide1.jpg">
+                <p><br> </br> </p>
+                <p class="name">Chip 2</p>
+                <p><br> </br> </p>
+                <p class="price">$180</p>
+                <p><br> </br> </p>
+                <p class="feature">
+                    <p><br>Measuring yor blood oxigen</b></p>
+                    <p><br>Measuring every your step</br></p>
+                    <p> <br>Track your move</br></p>
+                    <p><br>Smart connection</br></p>
+                    <p><br> Quick setup</br> </p>  
+                    <p> <br>Be your GPS </br></p>
+                    <p><br> </br> </p>
+                    <p><br><button onclick="buybutton()"><b><p style="font-size:18px">BUY</p></b></button>  </br> </p>
+                    <p><br> <button onclick="seemore2()"><i><p style="font-size:13px">See more..</p></i></button>  </br> </p>
+                    
 
-    <script src="ChipSelectionPage.js"></script>
+                </p>
+                    
+            </div>
+
+
+        
+        </div>
+        
+        
+    
+            
+       
+    </div>
+            
+    <script>
+        var check= true;
+        function changephoto(){
+            if (check==true){
+                document.getElementById('photo').src="ChipSelectionPage/images/slide2.jpg";
+                check =false;
+            }else {
+                document.getElementById('photo').src="ChipSelectionPage/images/slide1.jpg";
+                check =true;
+            }
+        }
+    </script>
+       
+      
+
+    <button class="tocartPage-btn" id="tocartPage-btn">Shopping Cart ></button>
+    
+    
 </body>
 
 </html>
+<script src="ChipSelectionPage.js"></script>
