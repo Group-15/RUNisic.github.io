@@ -2,7 +2,7 @@ document.getElementById("tocartPage-btn").onclick = function() {
     location.href = "../ShoppingCartPage/ShoppingCartPage.html";
 };
 
-
+//../ShoppingCartPage/ShoppingCartPage.html
 //var img=document.getElementsByID("img-area")
 
 //function leftbtn(){
