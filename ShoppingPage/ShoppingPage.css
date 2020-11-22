@@ -1,0 +1,159 @@
+/**************************************
+STATIC LAYOUT CSS
+**************************************/
+
+.wrapper {
+    width: 980px;
+    margin: 0 auto;
+}
+
+header,
+section {
+    width: 980px;
+}
+
+h1 {
+    color: rgba(132, 132, 132);
+    width: 10px;
+}
+
+
+/**************************************
+  CSS TO MAKE THE EXAMPLE LOOK PRETTY
+  **************************************/
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(218, 218, 218);
+    color: #FFF;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    border: 1px solid;
+    border-left: 2px solid #3ACFD5;
+    border-right: 2px solid #3a4ed5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 2px;
+    -moz-background-size: 100% 2px;
+    background-size: 100% 2px;
+    background-image: -webkit-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), -webkit-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+    background-image: -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+    background-image: -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+    background-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%), linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+    border-radius: 3px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+section {
+    background-color: white;
+    color: black;
+    height: 1000px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: Right;
+    display: block;
+    color: #87CEEB;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid #87CEEB;
+    color: #B784A7;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topleft a {
+    float: left;
+    display: block;
+    color: Black;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px 16px;
+}
+
+.shoptitle {
+    color: Black;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+
+/* Float four columns side by side */
+
+.column {
+    float: left;
+    margin: 90px;
+    width: 100px;
+}
+
+
+/* Remove extra left and right margins, due to padding in columns */
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Style the counter cards */
+
+.card {
+    background-color: white;
+    border: 2px solid #3ACFD5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin: 0px 50px 0px 50px;
+    }
+}
+
+img {
+    border-radius: 5%;
+    height: 100px;
+    right: 500px;
+}
