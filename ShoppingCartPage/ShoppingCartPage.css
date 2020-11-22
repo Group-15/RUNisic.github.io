@@ -1,1 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+header {
+    background: white;
+}
+
+body {
+    background: linear-gradient(109.49deg, #A12CBE 0%, #00EDED 100%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+/* Style the header */
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+header {
+    background: white;
+}
+
+
+/* Container for flexboxes */
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+/* Style the content */
+
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+
+/* Style the footer */
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

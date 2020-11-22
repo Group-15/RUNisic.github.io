@@ -7,24 +7,20 @@ var shoppingCart = [];
 
 
 
-function clickGuestCheckout()
-{
+function clickGuestCheckout() {
     window.alert("You have selected Guest Checkout");
 }
 
-function clickMemberCheckout()
-{
+function clickMemberCheckout() {
     window.alert("You have selected Member Checkout");
 }
 
 
-function clickPayPalCheckout()
-{
+function clickPayPalCheckout() {
     window.alert("You have selected Paypal Checkout");
 }
 
 
-function clickRemoved()
-{
+function clickRemoved() {
     window.alert("You have selected remove item from cart. This will result in decreasing selected quantity by one. Once selected qunatity is zero item will be removed from cart");
 }
