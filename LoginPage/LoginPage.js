@@ -1,6 +1,7 @@
 function formSubmit() {
     var credentials = readUserCredentials();
     storInLocalStorage(credentials["uname"], credentials["psw"]);
+    redirect()
 }
 
 function readUserCredentials() {
@@ -15,6 +16,10 @@ function storInLocalStorage(email, password) {
     window.localStorage.setItem('Password', password)
 }
 
-function redirectToPreviousPage(link) {
-    window.location.replace(link)
+function redirect() {
+    if (window.localStorage.getItem('Email') == null || window.localStorage.getItem('Password') == null) {
+        alert("Not all fields have been filled")
+    } else {
+        location.href = "../ShoeSelectionPage/ShoeSelectionPage.html";
+    }
 }

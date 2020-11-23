@@ -1,12 +1,7 @@
-document.getElementById("toShoeSelectPage-btn").onclick = function() {
-    location.href = "../ShoeSelectionPage/ShoeSelectionPage.html";
-};
-
-
-
-document.getElementById("toLoginPage-btn").onclick = function() {
-
-    if (window.localStorage.getItem)
-
-        location.href = "../LoginPage/Loginpage.html";
-};
+function toShoePage() {
+    if (window.localStorage.getItem('Email') == null) {
+        location.href = "../LoginPage/LoginPage.html";
+    } else {
+        location.href = "../ShoeSelectionPage/ShoeSelectionPage.html";
+    }
+}
