@@ -3,14 +3,14 @@
     box-sizing: border-box;
 }
 
-img {
+.shoeSelectionClass img {
     border-radius: 50%;
     width: 500px;
     float: left;
     padding: 150px 150px 150px 100px;
 }
 
-#text11 {
+.shoeSelectionClass #text11 {
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     margin-left: 100px;
@@ -18,13 +18,13 @@ img {
     margin-top: 100px;
 }
 
-table {
+.shoeSelectionClass table {
     border: 1px solid black;
     border-collapse: collapse;
     border-color: linear-gradient(109.49deg, #A12CBE 0%, #00EDED 100%);
 }
 
-button {
+.shoeSelectionClass button {
     border-style: solid;
     border-color: transparent;
     background-color: transparent;
@@ -34,8 +34,8 @@ button {
     cursor: pointer;
 }
 
-th,
-td {
+.shoeSelectionClass th,
+.shoeSelectionClass td {
     border-style: solid;
     border-width: 10px;
     outline-style: double;
@@ -45,7 +45,7 @@ td {
     border-color: white;
 }
 
-a:link {
+.shoeSelectionClass a:link {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(109.49deg, #A12CBE 0%, #00EDED 100%);
     border-radius: 40%;
@@ -59,23 +59,23 @@ a:link {
     padding-top: 10px;
 }
 
-.sizes {
+.shoeSelectionClass .sizes {
     color: white;
 }
 
-a:hover {
+.shoeSelectionClass a:hover {
     opacity: 0.7;
 }
 
-#size {
+.shoeSelectionClass #size {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 200px;
 }
 
-#shoename {
+.shoeSelectionClass #shoename {
     padding-top: 125px;
 }
 
-#description {
+.shoeSelectionClass #description {
     width: 250px;
 }
