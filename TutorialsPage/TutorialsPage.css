@@ -1,27 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 p {
-    color: #2e2e2e;
+    color: white;
+}
+
+.dropdownquestion {
+    width: 80vw;
+    background: linear-gradient(90.34deg, #A12CBE 0%, #00EDED 100%);
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.dropdown-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.heading {
+    font-size: 30px;
 }
 
 .dropdownImage::before {
     content: '\25BC';
     font-size: 1.5em;
-    color: #2e2e2e
+    color: white;
 }
 
-.dropdownImage::after {
-    display: none;
+#dropdown-question-0 {
+    margin-top: 50px;
 }
 
-.dropown-card {
-    width: 80vw;
-    display: flex;
-    flex-direction: row;
+
+/* For when the dropdown is clicked */
+
+.bottom-background {
+    padding: 2px;
+    background-color: linear-gradient(90.34deg, #A12CBE 0%, #00EDED 100%);
+}
+
+.bottom-content {
     background-color: white;
-}
-
-.dropown-question {
-    width: 80vw;
-    background-color: white;
-    margin-bottom: 10px;
 }
