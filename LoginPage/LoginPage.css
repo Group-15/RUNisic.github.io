@@ -1,11 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body {
+    background: linear-gradient(90.34deg, #A12CBE 0%, #00EDED 100%);
+}
+
 .card {
     background-color: #ffffff;
-    margin-right: auto;
-    width: 50vw;
-    height: 70vh;
+    margin: auto;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    width: 30vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    width: 20vw;
+    border: 0.5px solid transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(white, white), linear-gradient(90.34deg, #A12CBE 0%, #00EDED 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+button {
+    width: 12vw;
+    border: 0.1px solid transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(white, white), linear-gradient(90.34deg, #A12CBE 0%, #00EDED 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
 
 .card p {

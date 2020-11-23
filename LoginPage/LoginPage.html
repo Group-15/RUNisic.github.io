@@ -10,26 +10,18 @@
 
 <body>
 
-    <div class="mainPageClass">
+    <div class="MainDiv">
 
-        <div class="card">
-            <form onsubmit="event.preventDefault();formSubmit()">
-                <div>
-                    <label for="name">
-                        <p>Email</p>
-                    </label>
-                    <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
-                </div>
-                <div style="margin-top: 30px; margin-bottom: 30px;">
-                    <label for="psw">
-                        <p>Password</p>
-                    </label>
-                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-                </div>
-                <button>Login</button>
+        <form class="card" onsubmit="event.preventDefault();formSubmit()">
+            <div class="email">
+                <input type="text" style="margin-bottom: 10px;" placeholder="Enter Email" name="uname" id="uname" required>
+            </div>
+            <div class="password">
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            </div>
+            <button style="margin-bottom: 2px; margin-top: 30px;">Login</button>
 
-            </form>
-        </div>
+        </form>
 
     </div>
 
