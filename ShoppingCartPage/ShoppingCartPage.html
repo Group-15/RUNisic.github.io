@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body>
+<body onload="loadTable()">
 
     <header>
         <div class="navbar-border">
@@ -37,31 +37,23 @@
                 <ul>
 
                     <table>
-                        <tr style="font-size: 20px; background: linear-gradient(109.49deg, #A12CBE 0%, #00EDED 100%);">
+                        <tr style="font-size: 30px; background: linear-gradient(109.49deg, #A12CBE 0%, #00EDED 100%);">
                             <th>Item No. </th>
                             <th>Product Image</th>
                             <th>Product Description</th>
                             <th>Unit Price </th>
                             <th>Quantity </th>
                             <th>Total Price</th>
-                            <th>Shopping Decision </th>
                         </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td>
-                            </td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>
-                                </button>
+
+                        <tr id="cartTable">
                         </tr>
                     </table>
+
             </article>
             <aside>
                 <h1>Shopping Cart Summary</h1>
-                <table>
+                <table id="cart-summary">
                     <tr>
                         <td>Subtotal </td>
                         <td> $0.00 </td>
